@@ -1,5 +1,4 @@
-declare module "vue/types/vue" {
-  interface VueConstructor {
-    install: any
-  }
+declare module '*.vue' {
+  import Vue from 'vue';
+  export default Vue;
 }

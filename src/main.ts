@@ -1,14 +1,11 @@
 import Vue from "vue";
 
-import harmonyInput from "./plugins";
+import harmony_input from "harmony-components-vue2";
 import App from "./App.vue";
 import router from "./router";
 import "./assets/main.css";
-import Element from 'element-ui'
 
-Vue.use(harmonyInput);
-
-Vue.use(Element)
+Vue.use(harmony_input);
 
 new Vue({
   router,
