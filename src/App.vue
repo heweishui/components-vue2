@@ -1,11 +1,9 @@
 <script lang="ts">
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import HelloWorld from "./components/HelloWorld.vue";
 
 export default {
   data() {
     return {
-      val: "admin",
+      val: "",
     };
   },
   methods: {
@@ -26,18 +24,12 @@ export default {
         width="125"
         height="125"
       />
-
       <div class="wrapper">
-        <HelloWorld msg="You did it!" />
-
-        <nav>
-          <router-link to="/">Home</router-link>
-          <router-link to="/about">About</router-link>
-        </nav>
-
-        <div>----------------------------------------</div>
-        <harmonyInput></harmonyInput>
-        <harmony_input></harmony_input>
+        <harmonyInput
+          title="demo"
+          type="number"
+          @onkeydown="handleEnter"
+        ></harmonyInput>
         <p>harmonyInput数据：{{ val }}</p>
       </div>
     </header>

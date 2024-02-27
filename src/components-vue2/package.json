@@ -1,6 +1,6 @@
 {
-  "name": "components-vue2",
-  "version": "1.0.0",
+  "name": "harmony-components-vue2",
+  "version": "1.0.1",
   "description": "",
   "main": "./lib/index.d.ts",
   "scripts": {
