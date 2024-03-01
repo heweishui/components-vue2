@@ -5,7 +5,8 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup -c --bundleConfigAsCjs"
+    "build": "npm run cls && rollup -c --bundleConfigAsCjs",
+    "cls":"rimraf ../plugins && rimraf ./lib"
   },
   "author": "",
   "license": "ISC",
