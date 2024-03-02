@@ -286,11 +286,11 @@ __vue_render__._withStripped = true;
   /* style */
   const __vue_inject_styles__ = function (inject) {
     if (!inject) return
-    inject("data-v-7e9ed31e_0", { source: "\n.container[data-v-7e9ed31e] {\r\n  width: 90vw;\r\n  height: 10vh;\r\n  background-color: #eee;\n}\r\n", map: {"version":3,"sources":["D:\\project\\components-vue\\components-vue2\\src\\components-vue2\\src\\input\\harmonyInput.vue"],"names":[],"mappings":";AAoCA;EACA,WAAA;EACA,YAAA;EACA,sBAAA;AACA","file":"harmonyInput.vue","sourcesContent":["<template>\r\n  <div class=\"container\">\r\n    <h3>{{ title }}：</h3>\r\n    <input :type=\"type\" v-model=\"data\" @keyup.enter=\"onkeydown\" />\r\n    <slot></slot>\r\n  </div>\r\n</template>\r\n\r\n<script>\r\nimport { defineComponent } from \"vue\";\r\nexport default {\r\n  name: \"harmonyInput\",\r\n  props: {\r\n    title: {\r\n      type: String,\r\n      default: \"标题\",\r\n    },\r\n    type: {\r\n      type: String,\r\n      default: \"text\",\r\n    },\r\n  },\r\n  data() {\r\n    return {\r\n      data: \"\",\r\n    };\r\n  },\r\n  methods: {\r\n    onkeydown() {\r\n      this.$emit(\"onkeydown\", this.data);\r\n    },\r\n  },\r\n};\r\n</script>\r\n\r\n<style scoped>\r\n.container {\r\n  width: 90vw;\r\n  height: 10vh;\r\n  background-color: #eee;\r\n}\r\n</style>\r\n"]}, media: undefined });
+    inject("data-v-5af35222_0", { source: "\n.container[data-v-5af35222] {\n  width: 90vw;\n  height: 10vh;\n  background-color: #eee;\n}\n", map: {"version":3,"sources":["D:\\Project\\components\\components-vue2\\src\\components-vue2\\src\\input\\harmonyInput.vue"],"names":[],"mappings":";AAoCA;EACA,WAAA;EACA,YAAA;EACA,sBAAA;AACA","file":"harmonyInput.vue","sourcesContent":["<template>\n  <div class=\"container\">\n    <h3>{{ title }}：</h3>\n    <input :type=\"type\" v-model=\"data\" @keyup.enter=\"onkeydown\" />\n    <slot></slot>\n  </div>\n</template>\n\n<script>\nimport { defineComponent } from \"vue\";\nexport default {\n  name: \"harmonyInput\",\n  props: {\n    title: {\n      type: String,\n      default: \"标题\",\n    },\n    type: {\n      type: String,\n      default: \"text\",\n    },\n  },\n  data() {\n    return {\n      data: \"\",\n    };\n  },\n  methods: {\n    onkeydown() {\n      this.$emit(\"onkeydown\", this.data);\n    },\n  },\n};\n</script>\n\n<style scoped>\n.container {\n  width: 90vw;\n  height: 10vh;\n  background-color: #eee;\n}\n</style>\n"]}, media: undefined });
 
   };
   /* scoped */
-  const __vue_scope_id__ = "data-v-7e9ed31e";
+  const __vue_scope_id__ = "data-v-5af35222";
   /* module identifier */
   const __vue_module_identifier__ = undefined;
   /* functional template */
